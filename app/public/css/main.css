@@ -1,0 +1,60 @@
+body {
+    text-align: center;
+}
+
+ul {
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+.list-group {
+    max-width: 400px;
+}
+
+.list-group-item {
+    display: flex;
+}
+
+.checkbox-label {
+    position: relative;
+    top: 7px;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    margin-left: auto;
+}
+
+.error-content {
+    max-width: 600px;
+    background-color: lightpink;
+    border: solid red;
+}
+
+.register-btn, .update-btn {
+    margin-top: 10px;
+}
+
+.detail-content {
+    max-width: 400px;
+    margin: 0 auto 10px;
+    border: solid;
+}
+
+.detail-block {
+    display: flex;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.edit-btn {
+    color: black;
+    text-decoration: none;
+}
+
+.edit-btn:hover {
+    color: black;
+}
